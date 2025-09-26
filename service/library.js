@@ -1,7 +1,7 @@
 import * as user from '../view/UserInterface.js';
 
 let livros = [];
-let livro = new livro();
+let livro;
 
 export function controllerLibrary(opcao) {
     switch (opcao) {
